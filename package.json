@@ -1,0 +1,17 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "description": "Typescript compilation et exécution ES2020",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "Fatouk Touil",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
